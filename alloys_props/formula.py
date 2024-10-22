@@ -93,4 +93,4 @@ def enthalpy_of_mixing(formula: str) -> float:
     z: atomic number
     composition[z]: concentration of atom with z atomic number
     """
-    pass
+    return 0.0
