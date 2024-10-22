@@ -25,5 +25,5 @@ from alloys_props import vec, delta, pauling_negativities, entropy_of_mixing
 
 alloy = 'Al0.5Fe'
 print(f'vec: {vec(alloy)}')
-print(f'vec: {pauling_negativities(alloy)}')
-print(f'vec: {delta(alloy)}')
+print(f'pauling_negativities: {pauling_negativities(alloy)}')
+print(f'delta: {delta(alloy)}')
