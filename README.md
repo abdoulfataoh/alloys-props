@@ -11,9 +11,14 @@ Formula-based calculator for alloy properties
 
 ### Installation
 
-2. Install the dependencies:
+1. Install with pip:
     ```bash
     pip install alloys-props
+    ```
+
+2. Install with poetry:
+    ```bash
+    poetry add alloys-props
     ```
 
 ### Usage
