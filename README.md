@@ -1,13 +1,22 @@
-## Alloy Properties Calculator
 
-Formula-based calculator for alloy properties
+<div align="center">
+  <p>
+    <a href="https://badge.fury.io/py/alloys-props"><img src="https://badge.fury.io/py/alloys-props.svg" alt="PyPI version"></a>
+    <a href="https://pepy.tech/project/alloys-props"><img src="https://static.pepy.tech/badge/alloys-props"></a>
+    <a href="https://github.com/abdoulfataoh/alloys-props"><img src="https://github.com/abdoulfataoh/alloys-props/actions/workflows/test.yaml/badge.svg"></a> <br>
+    <a href="https://github.com/abdoulfataoh/alloys-props"><img src="https://github.com/abdoulfataoh/alloys-props/actions/workflows/publish.yaml/badge.svg"></a>
+  </p>
+     <p>Alloy Properties Calculator <br> Formula-based calculator for alloy properties</p>
+     <br>
+</div>
 
 ### Features
 
-- **VEC (Valence Electron Concentration)**
-- **Atomic Size Mismatch (Δ)**
-- **Pauling Electronegativity**
-- **Entropy of Mixing**
+- [x] VEC (Valence Electron Concentration)
+- [x]  Atomic Size Mismatch
+- [x]  Pauling Electronegativity
+- [x]  Entropy of Mixing
+- [ ]  Enthalpy of mixing
 
 ### Installation
 
