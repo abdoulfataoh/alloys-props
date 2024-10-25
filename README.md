@@ -10,13 +10,32 @@
      <br>
 </div>
 
+
 ### Features
 
-- [x] VEC (Valence Electron Concentration)
-- [x]  Atomic Size Mismatch
-- [x]  Pauling Electronegativity
-- [x]  Entropy of Mixing
-- [ ]  Enthalpy of mixing
+- [x] Valence Electron Concentration (VEC)
+
+    $\text{VEC} = \sum_{i} c_i \cdot \text{VEC}_i$
+
+- [x] Atomic Size Mismatch (delta)
+
+  $\delta = \sqrt{\sum_{i} c_i \left(1 - \frac{r_i}{\overline{r}}\right)^2}$
+
+
+- [x] Pauling Electronegativity
+
+  $\chi = \sqrt{\sum_{i=1}^{n} c_i \left( \chi_i - \overline{\chi} \right)^2}$
+
+- [x] Entropy of Mixing
+
+    $\Delta S_{\text{mix}} = -R \sum_{i} c_i \ln c_i$
+
+
+- [ ] Enthalpy of Mixing
+
+    $\Delta H_{\text{mix}} = \sum_{i=1}^n \sum_{j=1, j \neq i}^n 4 c_i c_j \Delta H_{\text{mix}}^{ij}$
+
+
 
 ### Installation
 
