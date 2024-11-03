@@ -86,11 +86,11 @@ def atomic_radius(formula: str) -> float:
     return np.sum([composition[z] / total_moles * database['atomic_radius'] for z in composition])
 
 
-def enthalpy_of_mixing(formula: str) -> float:
+def enthalpy_of_mixing(formula: str) -> None:
     """
     ΔHmix, Enthalpy of mixing for a
     multi-component alloy system
     z: atomic number
     composition[z]: concentration of atom with z atomic number
     """
-    return 0.0
+    raise NotImplementedError()
