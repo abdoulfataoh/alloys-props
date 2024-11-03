@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "alloys-props"
-version = "0.1.0"
+version = "0.1.1"
 description = "Formula-based calculator for alloy properties"
 authors = ["abdoulfataoh <abdoulfataoh@gmail.com>"]
 readme = "README.md"
