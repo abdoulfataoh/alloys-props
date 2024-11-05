@@ -2,6 +2,7 @@
 name = "alloys-props"
 version = "0.1.1"
 description = "Formula-based calculator for alloy properties"
+repository = "https://github.com/abdoulfataoh/alloys-props"
 authors = ["abdoulfataoh <abdoulfataoh@gmail.com>"]
 readme = "README.md"
 
